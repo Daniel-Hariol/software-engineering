@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Editar</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container mt-5">
+
+<h2>Editar tarefa</h2>
+
+<form action="/atualizar/{{ id }}" method="POST">
+
+<input
+type="text"
+name="tarefa"
+value="{{ tarefa }}"
+class="form-control mb-3">
+
+<button class="btn btn-success">
+
+Salvar
+
+</button>
+
+<a href="/" class="btn btn-secondary">
+
+Cancelar
+
+</a>
+
+</form>
+
+</div>
+
+</body>
+
+</html>
