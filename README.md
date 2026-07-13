@@ -63,3 +63,15 @@ pytest
 Inicialmente o projeto contemplava apenas um CRUD básico para gerenciamento de tarefas.
 
 Durante o desenvolvimento foi adicionada a funcionalidade de **priorização das tarefas**, visando melhorar a organização das atividades dos usuários, simulando uma alteração de escopo comum em projetos ágeis.
+
+## Mudança de Escopo
+
+Durante o desenvolvimento foi adicionada uma melhoria ao sistema.
+
+Agora o usuário pode informar a prioridade da tarefa utilizando uma identificação como:
+
+- [Alta]
+- [Média]
+- [Baixa]
+
+Essa alteração foi registrada no Kanban e no histórico de commits.
