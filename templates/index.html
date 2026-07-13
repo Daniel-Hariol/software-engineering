@@ -17,9 +17,9 @@
     Sistema de Gerenciamento de Tarefas
     </h1>
 
-    <p class="text-center">
-    Total de tarefas cadastradas: <strong>{{ tarefas|length }}</strong>
-    </p>
+    <div class="alert alert-info text-center">
+    <strong>Total de tarefas:</strong> {{ tarefas|length }}
+    </div>
 
     <form action="/adicionar" method="POST">
 
