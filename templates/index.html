@@ -14,8 +14,12 @@
 <div class="container mt-5">
 
     <h1 class="text-center mb-4">
-         Sistema de Gerenciamento de Tarefas
+    Sistema de Gerenciamento de Tarefas
     </h1>
+
+    <p class="text-center">
+    Total de tarefas cadastradas: <strong>{{ tarefas|length }}</strong>
+    </p>
 
     <form action="/adicionar" method="POST">
 
